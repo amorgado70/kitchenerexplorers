@@ -1,0 +1,228 @@
+/* Alfredo Morgado - Student ID 7381650 - PROG1245 - Conestoga College */
+
+/* Color pallete : http://paletton.com/#uid=50w0u0kw0w0lDQuqaFhurlGAa9G */
+
+/* Define fonts to be used */
+@font-face {
+    font-family: SnapsTaste;
+	/* copied from http://www.1001fonts.com/snaps-taste-font.html */	
+    src: url(../fonts/SnapsTaste.otf);
+}
+
+/* Reset elements */
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;	
+}
+a, a:hover{
+	text-decoration: none;
+}
+/* Hide elements */
+@media (max-width: 768px) {
+  .hidden-xs {
+    display: none !important;
+  }
+}
+@media (max-width: 992px) {
+  .hidden-lg {
+    display: none !important;
+  }
+}
+html{
+	min-width: 480px;
+	background-color: #FFBC2E;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+/* Header logo */
+header{
+	padding: 0.2em;
+	font-family: SnapsTaste;
+	font-size: 300%;
+	color: #AD1108;
+}
+.step{
+	margin-left: 24px;
+	width: 48px;
+	height: 48px;
+}
+
+/* Body */
+body {
+	width: 90%;
+	max-width: 1366px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #FFBC2E;
+}
+
+/* Top three tie navigation menu */
+.nav_this{
+	color: #FFBC2E;
+	background-color: #AD5608;
+}
+.nav_this:hover{
+	color: #FFBC2E;
+	background-color: #AD5608;
+}
+body nav{
+	margin-top: 1em;
+	min-height: 2.3em;
+	font-weight: bold;
+}
+body nav a{
+	display: block;
+	padding: .5em;
+	color: #FFA453;
+	background-color: #4D2400;
+	border-right: 1px solid #FFA453;
+}
+body nav>ul>li:last-child a{
+	border-right: 1px solid #4D2400;
+}
+body nav a:hover{
+	text-decoration: none;
+	color: #4D2400;
+	background-color: #FFA453;
+}
+.nav_submenu{
+	position: relative;
+}
+.nav_submenu:after{
+	content: "+";
+	position: absolute;
+	right: 1em;
+}
+body nav ul{
+	list-style: none;
+}
+body nav ul>li{
+	float: left;
+	width: 16.66%;
+	min-width: 8em;	
+}
+body nav ul ul li{
+	float: none;
+	position: relative;
+	left: -25%;
+	width: 120%;
+	min-width: 12em;
+}
+body nav ul ul li ul{
+	position: absolute;
+	left: 120%;
+	top: -2px;
+}
+body nav ul ul{
+	display: none;
+	position: absolute; /******* submenus over the section *******/	
+}
+body nav ul li:hover > ul{
+	display: block;
+}
+body nav ul ul li:first-child{
+	border-top: 2px solid #AD5608;
+}
+body nav ul ul ul li:first-child{
+	border-top: 2px solid #AD5608;
+}
+main{
+	clear: both;
+	color: #4D0400;
+}
+/* Left Aside - Thumbnails */
+main aside:first-child {
+	float: left;
+	width: 18%;
+	min-width: 8em;	
+	margin: 1em 0 1em 1%;
+	padding: 0.5em;
+	background-color: #FFC853;
+}
+main aside:first-child a{
+	color: #AD1108;
+}
+main aside:first-child figure{
+	margin: 1em 5%;
+	width: 90%;
+}
+main aside:first-child figure img {
+	width: 100%;
+	border: 1px solid #AD5608;	
+}
+/* Article style */
+article{
+	float: left;
+	width: 57%;
+	min-width: 480px;
+	margin: 1em 2%;
+}
+article h2{
+	margin-top: 0.5em;
+	color: #AD1108;
+}
+article p{
+	margin-top: 0.5em;
+	text-align: justify;
+}
+article a{
+	margin-top: 1em;
+	font-size: 105%;
+	font-weight: bold;
+	color: #AD1108;
+}
+article img{
+	float: right;
+	width: 70%;
+	margin: 1em 0 1em 1em;
+	border: 2px solid #AD5608;
+}
+/* Right Aside - News & Events */
+main aside:last-child {
+	float: left;
+	width: 15%;
+	min-width: 8em;	
+	margin: 1em 1% 1em 0;	
+	padding: 0.5em;
+	background-color: #FFC853;
+}
+main aside:last-child h3{
+	margin: 1em;	
+}
+main aside:last-child h3 a{
+	color: #AD1108;
+}
+/* Footer style */
+footer{
+	clear: both;
+	padding: .5em;
+	color: #FFA453;	
+	background-color: #4D2400;
+}
+footer a{
+	float: right;
+	padding-left: 0.5em;
+	padding-right: 1em;
+	min-height: 1em;
+	color: #FFA453;
+	background-color: #4D2400;	
+}
+footer a:hover{
+	color: #4D2400;
+	background-color: #FFA453;
+}
+.go_up {
+	height: 24px;
+	width: 52px;	
+	background: url(../images/top-arrow-normal.jpg);
+	background-repeat: no-repeat;
+	float: right; 
+	padding-right: 15px;  
+}
+.go_up:hover {	
+	background: url(../images/top-arrow-hover.jpg);
+	background-repeat: no-repeat;
+	float: right; 
+	padding-right: 15px;  
+}

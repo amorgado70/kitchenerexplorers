@@ -1,0 +1,93 @@
+/* Alfredo Morgado - Student ID 7381650 - PROG1245 - Conestoga College */
+
+/* Article style */
+article{
+	width: 63%;
+	min-width: 
+}
+legend{
+	padding: 0.2em;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #AD1108;
+}
+/* Right Aside - News & Events */
+main aside:last-child {
+	float: right;
+	width: 27%;
+	min-width: 12em;	
+	margin: 1em 1% 1em 0;	
+	padding: 1em;
+	background-color: #FFC853;
+}
+fieldset{
+	margin: 1em 0;
+	padding: 0.5em 1.5em;
+	border: 2px solid #AD5608;
+	border-radius: 8px;
+	color: #4D0400;
+}
+input[type="text"], input[type="email"],
+select, textarea{
+	font-family: Lucida Console, Monaco, monospace;
+	margin: 0.5em;
+	background-color: #FFC853;
+}
+input:required, input[required]{
+	border: 2px solid red;
+	color: 	#800000;
+}
+input:valid , select, textarea{
+	padding: 1px;	/* compesate invalid border */
+	border: 1px solid #AD5608;
+}
+input:invalid {
+	box-shadow: none;
+	border: 2px solid red;
+	color: 	#800000;
+}
+input[type=radio]:checked + label, input[type=checkbox]:checked + label {
+}
+input[type=text]{	
+	width: calc(85% - 2px);
+}
+input[type=email]{	
+	width: calc(85% - 8px);
+}
+select{
+	width: 21em;
+	padding-left: 0.5em;
+}
+input[type="submit"] {	
+	height: 2em;
+	width: 100%;
+	border: 2px solid #AD5608;
+	border-radius: 8px;
+	background-color: #FFA453;
+}
+article input[type="submit"],article input[type="reset"]  {	
+	height: 2em;
+	width: 30%;
+	margin-left: 1em;
+	margin-right: 10%;
+	border: 2px solid #AD5608;
+	border-radius: 8px;
+	background-color: #FFA453;
+}
+textarea{
+	height: 7em;
+	width: 29em;
+	padding: 0.5em;
+}
+::-webkit-input-placeholder {
+	color: #4D0400;
+}
+:-moz-placeholder { /* Firefox 18- */
+	color: #4D0400;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+	color: #4D0400;
+}
+:-ms-input-placeholder {  
+	color: #4D0400;
+}

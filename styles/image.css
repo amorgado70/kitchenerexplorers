@@ -1,0 +1,66 @@
+/* Alfredo Morgado - Student ID 7381650 - PROG1245 - Conestoga College */
+
+/* Article style */
+article{
+	width: 52%;
+}
+/* Right Aside - Travels Description */
+main aside:last-child {
+	width: 20%;
+}
+main aside p{
+	text-align: justify;
+}
+main aside p a{
+	color: #AD1108;
+}
+/* Style for the images */
+body article ul{
+	list-style: none;
+}
+body article ul li{
+	float: left;
+	width: 35%;
+	margin: 0 7%;
+	margin-top: 3em;
+}
+body article ul li a{
+	display: block;
+	margin: 0;
+	position: relative;
+	height: 150px;
+	color: #AD1108;
+}
+body article ul li  p{
+	float: left;
+	width: 100%;
+}
+body article ul li  img{
+	float: left;
+	height: 75px;
+	width: 150px;
+	margin: 0.5em;
+	border: 2px solid #AD5608;	
+}
+.magnifying-glass+img:hover{
+	position: absolute;
+	z-index: 5;
+	top: -50%;
+	left: -10%;
+	height: 350px;
+	width: 600px;	
+}
+.magnifying-glass{
+	content: url("../images/magnifying-glass.png");
+	position: absolute;
+	top: 34px;
+	left: 2px;
+	height: 36px;
+	width: 36px;
+	z-index: 1;
+	border: 0;
+	opacity: 0.35;
+}
+body article ul li:hover .magnifying-glass{
+	display: none;
+}

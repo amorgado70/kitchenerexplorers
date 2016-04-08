@@ -1,0 +1,222 @@
+<!--  Alfredo Morgado - Student ID 7381650 - PROG1245 - Conestoga College -->
+<!DOCTYPE HTML>
+
+<html lang="en">
+	<head>
+		<title>Kitchener Explorers</title>
+		<!-- Icon copied from http://www.flaticon.es/packs/startup-and-new-bussiness-solid -->
+		<link rel="shortcut icon" href="../images/favicon.ico">
+		<link rel="stylesheet" href="https://necolas.github.io/normalize.css/3.0.2/normalize.css" media="screen" type="text/css"/>
+		<link rel="stylesheet" href="../styles/main.css" media="screen" type="text/css"/>
+		<link rel="stylesheet" href="../styles/feedback.css" media="screen" type="text/css"/>
+		<meta charset="utf-8">
+		<meta name="description" content="ModifyMe">
+		<meta name="keywords" content="ModifyMe">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script> function formSubmit() {
+					alert("The form has been submitted. Thank you for taking the time to give us your feedback.");
+					}
+		</script>
+	</head>
+	<body>
+		<header>
+			KITCHENER EXPLORERS &nbsp;&nbsp;
+			<img class="step hidden-lg" src="../images/steps.jpg" alt="">	
+			<img class="step hidden-lg" src="../images/steps.jpg" alt="">
+			<img class="step hidden-lg" src="../images/steps.jpg" alt="">
+		</header>
+		<nav>
+			<ul>
+				<li><a href="../index.html">HOME</a></li>
+				<li><a class="nav_submenu" href="../pages/image.html">AFRICA</a>		
+					<ul>
+						<li><a href="../pages/image.html">ALL DESTINATIONS</a></li>
+						<li><a class="nav_submenu hidden-xs" href="#">EAST AFRICA</a>
+							<ul>								
+								<li><a href="#">ETHIOPIA</a></li>
+								<li><a href="#">TANZANIA</a></li>
+								<li><a href="#">UGANDA</a></li>
+							</ul>
+						</li>
+						<li><a class="nav_submenu hidden-xs" href="#">NORTH AFRICA</a>
+							<ul>
+								<li><a href="#">SAARA</a></li>
+								<li><a href="#">MOROCCO</a></li>
+							</ul>
+						</li>
+						<li><a class="hidden-xs" href="#">SOUTHERN AFRICA</a>
+						</li>						
+					</ul>
+				</li>
+				<li><a class="nav_submenu" href="#">ASIA</a>				
+					<ul>
+						<li><a href="#">ALL DESTINATIONS</a></li>
+						<li><a class="nav_submenu hidden-xs" href="#">BHUTAN</a>
+							<ul>
+								<li><a href="#">KINGDOM IN THE CLOUDS</a></li>
+								<li><a href="#">SACRED VALLEY</a></li>
+							</ul>
+						</li>
+						<li><a class="nav_submenu hidden-xs" href="#">SOUTHEAST ASIA</a>
+							<ul>
+								<li><a href="#">VIETNAM AND CAMBODIA</a></li>
+								<li><a href="#">BORNEO</a></li>
+								<li><a href="#">THAILAND</a></li>
+							</ul>
+						</li>
+						<li><a class="nav_submenu hidden-xs" href="#">CHINA</a>
+							<ul>
+								<li><a href="#">ANCIENT VILLAGES</a></li>
+								<li><a href="#">BEIJING</a></li>
+							</ul>
+						</li>
+						<li><a class="nav_submenu hidden-xs" href="#">INDIA</a>
+							<ul>
+								<li><a href="#">RAIL JOURNEY</a></li>
+								<li><a href="#">WILDLIFE SAFARI</a></li>
+							</ul>
+						</li>						
+					</ul>
+				</li>
+				<li><a class="nav_submenu hidden-xs" href="#">AMERICA</a>				
+					<ul>
+						<li><a href="#">ALL DESTINATIONS</a></li>
+						<li><a class="nav_submenu" href="#">NORTH</a>
+							<ul>
+								<li><a href="#">ALASKA</a></li>
+								<li><a href="#">BAJA CALIFORNIA</a></li>
+								<li><a href="#">NATIONAL PARKS</a></li>
+							</ul>
+						</li>
+						<li><a class="nav_submenu" href="#">SOUTH</a>
+							<ul>
+								<li><a href="#">AMAZON</a></li>
+								<li><a href="#">GALAPAGOS</a></li>
+								<li><a href="#">PATAGONIA</a></li>
+							</ul>
+						</li>
+						<li><a class="nav_submenu" href="#">CARIBBEAN</a>
+							<ul>
+								<li><a href="#">COSTA RICA</a></li>
+								<li><a href="#">BELIZE</a></li>
+								<li><a href="#">CUBA</a></li>
+							</ul>
+						</li>						
+					</ul>
+				</li>
+				<li><a class="nav_submenu hidden-lg" href="#">EUROPE</a>				
+					<ul>
+						<li><a href="#">ALL DESTINATIONS</a></li>
+						<li><a class="nav_submenu" href="#">WESTERN</a>
+							<ul>
+								<li><a href="#">FRANCE</a></li>
+								<li><a href="#">HOLLAND</a></li>
+								<li><a href="#">MONT BLANC</a></li>
+							</ul>
+						</li>
+						<li><a class="nav_submenu" href="#">SOUTHERN</a>
+							<ul>
+								<li><a href="#">ITALY</a></li>
+								<li><a href="#">GREECE</a></li>
+								<li><a href="#">PORTUGAL</a></li>
+							</ul>
+						</li>
+						<li><a class="nav_submenu" href="#">NORTHERN</a>
+							<ul>
+								<li><a href="#">SCANDINAVIA</a></li>
+								<li><a href="#">TRANS-SIBERIAN</a></li>
+							</ul>
+						</li>						
+					</ul>
+				</li>
+				<li><a class="nav_this" href="#">FEEDBACK</a></li>
+			</ul>
+		</nav>
+		<main>
+			<article>
+				<h2>Please provide us with your valuable feedback</h2>
+				<!-- Text copied from http://www.bu.edu/rehab/feedback-survey/ -->
+				<p>In order to continuously improve the quality of our website 
+				we are asking that you complete the following survey. 
+				Please feel free to comment on areas where you feel we can improve 
+				and things you feel we are doing well.</p>
+				<form action="feedback.html" method="post" name="feedback_form" id="feedback_form" onsubmit="formSubmit()">					
+					<fieldset>
+						<legend>Feedback</legend>
+						<label for="name">Name:</label>
+						<input type="text" name="name" id="name" required tabindex="1" autofocus><br>
+						<label for="email">E-Mail:</label>
+						<input type="email" name="email" id="email" autofocus required tabindex="2"><br>
+						<label>Where would you like to spend your next vacation?<label><br>
+						<select name="dream_travel" required tabindex="3">
+							<optgroup label="">
+								<option value="unselected">Please pick your preferred trip</option>
+							</optgroup>	
+							<optgroup label="In Africa">							
+								<option value="africa1">Learning new cultures (AF)</option>
+								<option value="africa2">Being close to wildlife  (AF)</option>
+								<option value="africa3">Venturing unknown places (AF)</option>
+							</optgroup>
+							<optgroup label="In South America">
+								<option value="america1">Learning new cultures (SA)</option>
+								<option value="america2">Being close to wildlife (SA)</option>
+								<option value="america3">Venturing unknown places (SA)</option>
+							</optgroup>
+							<optgroup label="In Asia">
+								<option value="asia1">Learning new cultures (AS)</option>
+								<option value="asia2">Being close to wildlife (AS)</option>
+								<option value="asia3">Venturing unknown places (AS)</option>
+							</optgroup>							
+						</select><br>
+						<label>Who would you like to go with you? You can pick more than one option.<label><br>
+						<select name="dream_companion" size="3" multiple tabindex="4">
+							<option value="couple">Loved partner</option>							
+							<option value="family">My children</option>
+							<option value="friends">Friends</option>
+							<option value="alone">All by myself</option>
+						</select><br>
+						<label>Comments:</label><br>
+						<textarea name="comments" placeholder="Please, enter your comments here." tabindex="5"></textarea>
+						<input type="submit" id="submit" value="Submit"  tabindex="6">
+						<input type="reset" id="reset" value="Reset">
+					</fieldset>					
+				</form>					
+			</article>
+			<aside class="hidden-lg">
+				<h2>Quick Feedback</h2>
+				<form action="feedback.html" method="post" name="quick_form" id="quick_form">
+					<fieldset>
+						<legend>This website is:</legend>
+						<input type="checkbox" name="websiteIs1" value="funToVisit">
+						<label>Fun to visit</label><br>	
+						<input type="checkbox" name="websiteIs2" value="wellDesigned">
+						<label>Well designed</label><br>
+						<input type="checkbox" name="websiteIs3" value="usesGoodColors">
+						<label>Uses good colors</label><br>
+						<input type="checkbox" name="websiteIs4" value="hasNicePictures">
+						<label>Has nice pictures</label><br>
+						<input type="checkbox" name="websiteIs5" value="motivatesYou">
+						<label>Motivates you to explore</label><br>
+					</fieldset>
+					<fieldset>
+						<legend>Will you visit this site again?</legend>
+						<input type="radio" name="visitAgain" value="funToVisit">
+						<label>Yes</label><br>
+						<input type="radio" name="visitAgain" value="wellDesigned">
+						<label>No</label><br>
+					</fieldset>
+					<input type="submit" id="submit" value="Submit">
+				</form>					
+			</aside>
+		</main>
+		<footer>			
+			<span>&copy; Alfredo Morgado
+			<script>document.write(new Date().getFullYear())</script></span>
+			<span class="hidden-lg">- ASSIGNMENT 2 - PROG1245 - Conestoga College</span>
+			<a class="go_up hidden-xs" href="#"></a>
+			<a href="../pages/bibliography.html">BIBLIOGRAPHY</a>
+		</footer>
+	</body>
+</html>
